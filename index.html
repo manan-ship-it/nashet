@@ -48,4 +48,142 @@
       padding: 30px;
       background: #fff;
       border-radius: 20px;
-      box-shadow: 0 6px 20px rgba(0,0,0,
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    }
+
+    .section h2 {
+      font-size: 28px;
+      color: #006C35;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    /* ====== Services Grid ====== */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .service-card {
+      background: #F5F7FA;
+      padding: 20px;
+      border: 2px solid #00A550;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+
+    .service-card i {
+      font-size: 40px;
+      color: #006C35;
+      margin-bottom: 15px;
+    }
+
+    .service-card h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+
+    .service-card p {
+      font-size: 15px;
+      color: #555;
+    }
+
+    /* ====== Contact Buttons ====== */
+    .contact-box {
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    .contact-box a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      background: #006C35;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 17px;
+      transition: background 0.3s ease;
+    }
+
+    .contact-box a:hover {
+      background: #00A550;
+    }
+
+    /* ====== Footer ====== */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111827;
+      color: #fff;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <!-- رابط صورة افتراضية للشعار -->
+  <img src="https://via.placeholder.com/120x120.png?text=Logo" alt="شعار الوكالة">
+  <h1>وكالة نشط للحلول التسويقية</h1>
+  <p>نساعدك تبني علامتك التجارية وتجذب عملاءك بأفضل الطرق الرقمية</p>
+</header>
+
+<div class="section">
+  <h2>خدماتنا</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <i>📈</i>
+      <h3>إدارة الحملات الإعلانية</h3>
+      <p>Google – Meta – Snapchat لتحقيق أفضل النتائج.</p>
+    </div>
+    <div class="service-card">
+      <i>🔍</i>
+      <h3>تحسين محركات البحث</h3>
+      <p>SEO واستراتيجية كلمات مفتاحية قوية لزيادة الظهور.</p>
+    </div>
+    <div class="service-card">
+      <i>📱</i>
+      <h3>إدارة السوشيال ميديا</h3>
+      <p>صناعة محتوى جذاب وتحليل أداء حساباتك.</p>
+    </div>
+    <div class="service-card">
+      <i>🎨</i>
+      <h3>تصميم الهوية البصرية</h3>
+      <p>شعار، ألوان، وكل ما يلزم لتميز علامتك التجارية.</p>
+    </div>
+    <div class="service-card">
+      <i>💻</i>
+      <h3>مواقع إلكترونية</h3>
+      <p>إنشاء مواقع وصفحات هبوط احترافية وجذابة.</p>
+    </div>
+    <div class="service-card">
+      <i>📊</i>
+      <h3>تحليل الأداء</h3>
+      <p>تقييم النتائج وتحسين الخطط التسويقية باستمرار.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>تواصل معنا</h2>
+  <div class="contact-box">
+    <a href="#">واتساب</a>
+    <a href="#">البريد الإلكتروني</a>
+    <a href="#">انستغرام</a>
+  </div>
+</div>
+
+<footer>
+  حقوق النشر © 2025 وكالة نشط للحلول التسويقية
+</footer>
+
+</body>
+</html>
